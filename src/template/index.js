@@ -1,3 +1,4 @@
+import lunawen from "./markdown/lunawen";
 import blue from "./markdown/blue";
 import blueCyan from "./markdown/blueCyan";
 import blueMountain from "./markdown/blueMountain";
@@ -28,6 +29,7 @@ import basic from "./basic";
 export default {
   basic,
   style: {
+    lunawen,
     blue,
     blueMountain,
     blueCyan,

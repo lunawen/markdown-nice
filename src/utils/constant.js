@@ -24,6 +24,7 @@ export const IMAGE_HOSTING_TYPE_OPTIONS = [
   {value: "SM.MS", label: "SM.MS"},
   {value: "阿里云", label: "阿里云"},
   {value: "七牛云", label: "七牛云"},
+  {value: "GitHub", label: "GitHub"},
 ];
 
 export const BASIC_THEME_ID = "basic-theme";
@@ -38,6 +39,11 @@ export const ENTER_DELAY = 0.5;
 export const LEAVE_DELAY = 0.0;
 
 export const TEMPLATE_OPTIONS = [
+  {
+    id: "lunawen",
+    name: "Luna-Blue",
+    author: "lunawen",
+  },
   {
     id: "normal",
     name: "默认主题",

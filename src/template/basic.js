@@ -341,6 +341,7 @@ table tr td {
 }
 
 #nice .footnotes-sep:before {
+  // content: "References";
   content: "参考资料";
   display: block;
 }
